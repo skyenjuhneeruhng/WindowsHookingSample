@@ -1,0 +1,7 @@
+LIBRARY	CppHooKDll
+EXPORTS
+   SetKeyboardHook
+   SetLowKeyboardHook
+   SetMouseHook
+SECTIONS
+	.HOOKDATA   Read Write Shared
